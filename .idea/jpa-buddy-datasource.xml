@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="fbb4b171-7ce8-430f-a2e9-b22a80f11c02" name="Cardapio Spring" url="jdbc:postgresql://localhost/food" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
