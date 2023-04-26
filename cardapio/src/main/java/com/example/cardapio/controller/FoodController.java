@@ -17,9 +17,11 @@ public class FoodController {
     private FoodRepository repository;
 
     @GetMapping
-    public void getAll(){
+    public List<Food> getAll(){
 
+        List<Food> foodList = repository.findAll();
+        return foodList;
     }
 
-    List<Food> foodList = repository.findAll();
+
 }
